@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 
 function App() {
   const [message, setMessage] = useState("");
-  const [backend, setBackend] = useState("AWS");
+  const [backend, setBackend] = useState("GCP");
 
   const API_URLS = {
     AWS: import.meta.env.VITE_API_AWS,
